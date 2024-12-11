@@ -18,9 +18,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hibiken/asynq/internal/errors"
-	pb "github.com/hibiken/asynq/internal/proto"
-	"github.com/hibiken/asynq/internal/timeutil"
+	"github.com/divyam234/asynq/internal/errors"
+	pb "github.com/divyam234/asynq/internal/proto"
+	"github.com/divyam234/asynq/internal/timeutil"
 )
 
 // Version of asynq library and CLI.

@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
-	"github.com/hibiken/asynq/internal/testbroker"
-	"github.com/hibiken/asynq/internal/testutil"
+	"github.com/divyam234/asynq/internal/base"
+	"github.com/divyam234/asynq/internal/rdb"
+	"github.com/divyam234/asynq/internal/testbroker"
+	"github.com/divyam234/asynq/internal/testutil"
 
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/goleak"

@@ -20,10 +20,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/errors"
-	h "github.com/hibiken/asynq/internal/testutil"
-	"github.com/hibiken/asynq/internal/timeutil"
+	"github.com/divyam234/asynq/internal/base"
+	"github.com/divyam234/asynq/internal/errors"
+	h "github.com/divyam234/asynq/internal/testutil"
+	"github.com/divyam234/asynq/internal/timeutil"
 )
 
 // variables used for package testing.

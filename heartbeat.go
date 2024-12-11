@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
-	"github.com/hibiken/asynq/internal/timeutil"
+	"github.com/divyam234/asynq/internal/base"
+	"github.com/divyam234/asynq/internal/log"
+	"github.com/divyam234/asynq/internal/timeutil"
 )
 
 // heartbeater is responsible for writing process info to redis periodically to

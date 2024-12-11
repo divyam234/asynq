@@ -18,11 +18,11 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/hibiken/asynq/internal/base"
-	asynqcontext "github.com/hibiken/asynq/internal/context"
-	"github.com/hibiken/asynq/internal/errors"
-	"github.com/hibiken/asynq/internal/log"
-	"github.com/hibiken/asynq/internal/timeutil"
+	"github.com/divyam234/asynq/internal/base"
+	asynqcontext "github.com/divyam234/asynq/internal/context"
+	"github.com/divyam234/asynq/internal/errors"
+	"github.com/divyam234/asynq/internal/log"
+	"github.com/divyam234/asynq/internal/timeutil"
 )
 
 type processor struct {
